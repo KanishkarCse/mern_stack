@@ -1,3 +1,4 @@
+--joins
 create table students(ID INT PRIMARY KEY, AGE INT ,GENDER VARCHAR(30));
 create table staff(staff_ID int primary key,ID INT , staff_AGE INT ,staff_GENDER VARCHAR(30));
 insert into students values (1,18,'Male'),(2,18,'Male'),(3,17,'Female'),(4,19,'Female');
